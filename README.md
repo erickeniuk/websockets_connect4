@@ -30,6 +30,13 @@ Open one more terminal (3rd) and on the command line:
 python -m websockets ws://localhost:8001/
 ```
 
+### To Play
+
+Open a browser and go to:
+```
+http://localhost:8000/
+```
+
 ### To Push to Git
 
 Commit new changes and provide a commit message:

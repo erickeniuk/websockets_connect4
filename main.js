@@ -33,7 +33,7 @@ function showMessage(message) {
 function receiveMoves(board, websocket) {
     websocket.addEventListener("message", ({ data }) => {
         const event = JSON.parse(data);
-        console.log(event.player, event.column, event.row)
+        console.log(event)
         switch (event.type) {
             case "play":
                 // Update the UI with the move.
@@ -45,7 +45,7 @@ function receiveMoves(board, websocket) {
                 websocket.close(1000);
                 break;
             case "error":
-                showMessage(event.message);
+                showMessage(`${event.message} 0_o`);
                 break;
             default:
                 throw new Error(`Unsupported event type: ${event.type}.`);

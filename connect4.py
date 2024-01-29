@@ -35,7 +35,8 @@ class Connect4:
 
         """
         b = sum(1 << (8 * column + row) for _, column, row in self.moves[::-2])
-        return any(b & b >> v & b >> 2 * v & b >> 3 * v for v in [1, 7, 8, 9])
+        is_win = any(b & b >> v & b >> 2 * v & b >> 3 * v for v in [1, 7, 8, 9])
+        return is_win
 
     def play(self, player, column):
         """
