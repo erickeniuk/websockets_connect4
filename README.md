@@ -6,7 +6,7 @@ A demonstration of Python websockets...
 
 @erickeniuk
 
-![alt text](/Connect4.png)
+![Connect4](/Connect4.png)
 
 Tutorial here:
 https://websockets.readthedocs.io/en/stable/intro/tutorial1.html
