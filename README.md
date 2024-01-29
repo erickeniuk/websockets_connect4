@@ -6,7 +6,7 @@ A demonstration of Python websockets...
 
 https://websockets.readthedocs.io/en/stable/intro/tutorial1.html
 
-### To Install
+### To Clone
 
 ```
 git clone https://github.com/erickeniuk/websockets_connect4.git
@@ -31,6 +31,11 @@ python -m websockets ws://localhost:8001/
 ```
 
 ### To Push to Git
+
+Commit new changes and provide a commit message:
+```
+git commit -am "Your commit message here"
+```
 
 Add the remote if not added:
 ```
