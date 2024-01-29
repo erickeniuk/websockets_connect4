@@ -29,3 +29,22 @@ Open one more terminal (3rd) and on the command line:
 ```
 python -m websockets ws://localhost:8001/
 ```
+
+### To Push to Git
+
+Add the remote if not added:
+```
+git remote add origin https://github.com/erickeniuk/websockets_connect4.git
+```
+
+For the first push, you may need:
+```
+git push --set-upstream origin main
+```
+
+Otherwise, a simple...
+```
+git push
+```
+
+should suffice.
